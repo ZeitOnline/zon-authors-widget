@@ -5,7 +5,7 @@
  * Plugin Name:       ZEIT ONLINE Authors Widget
  * Plugin URI:        https://github.com/ZeitOnline/zon-authors-widget
  * Description:       Wordpress widget to display a context sensitive list of authors
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Moritz Stoltenburg
  * Author URI:        http://slomo.de/
  * License:           GPL-3.0+
@@ -243,6 +243,6 @@ HTML;
 
 // register ZON_Authors_Widget widget
 function register_zon_blog_authors_widget() {
-	register_widget( 'ZON_Authors_sWidget' );
+	register_widget( 'ZON_Authors_Widget' );
 }
 add_action( 'widgets_init', 'register_zon_blog_authors_widget' );
