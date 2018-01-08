@@ -1,0 +1,10 @@
+.zon-fieldset {
+	margin: 0;
+	padding: 1em;
+	border: 1px solid #e5e5e5;
+}
+
+.zon-fieldset label {
+	display: inline-block;
+	width: 3em;
+}
