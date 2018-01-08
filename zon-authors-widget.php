@@ -1,6 +1,6 @@
 <?php
 /**
- * @package ZEIT ONLINE Blog Options
+ * @package ZON_Authors_Widget
  *
  * Plugin Name:       ZEIT ONLINE Authors Widget
  * Plugin URI:        https://github.com/ZeitOnline/zon-authors-widget
@@ -14,9 +14,9 @@
 */
 
 /**
- * Adds ZonBlogAuthorsWidget widget.
+ * Adds ZON_Authors_Widget widget.
  */
-class ZonBlogAuthorsWidget extends WP_Widget {
+class ZON_Authors_Widget extends WP_Widget {
 	/**
 	 * Register widget with WordPress.
 	 */
@@ -241,8 +241,8 @@ HTML;
 	}
 }
 
-// register ZonBlogAuthorsWidget widget
+// register ZON_Authors_Widget widget
 function register_zon_blog_authors_widget() {
-	register_widget( 'ZonBlogAuthorsWidget' );
+	register_widget( 'ZON_Authors_sWidget' );
 }
 add_action( 'widgets_init', 'register_zon_blog_authors_widget' );
